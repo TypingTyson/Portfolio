@@ -1,0 +1,359 @@
+ body {
+    font-family: Arial, sans-serif;
+
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .tiger-photo {
+    width: 200px;
+    height: 200px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 120px
+  }
+
+  .search-bar {
+    height: 20px;
+    color: rgb(213, 213, 213);
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(213, 213, 213);
+    margin-top: 20px;
+  }
+
+  .search-bar:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: focus;
+    border-color: green
+  }
+
+  .search-bar:active {
+    background-color: rgb(240, 240, 240);
+    cursor: cell;
+  }
+
+  .search-google {
+    background-color: white;
+    border: none;
+    width: 400px;
+    height: 25px;
+    font-size: 9px;
+    border-radius: 12.5px;
+    border-width: 0.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-left: 165px;
+    margin-top: 7px;
+    margin-bottom: 75px;
+  }
+
+  .email-p {
+    margin-bottom: 2px;
+    padding-top: 10px;
+    margin-top: 40px;
+  }
+
+  .email-msg {
+    margin-top: 10px
+  }
+
+  .email-button {
+    background-color: rgb(24, 101, 208);
+    color: white;
+    border: none;
+    width: 252px;
+    height: 34px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight:200;
+    transition: box-shadow 0.15s;
+  }
+  .email-button:hover {
+    box-shadow: 1 2 4px rgba(0, 0, 0, 0.15);
+    background-color: rgb(3, 57, 126);
+    cursor: pointer;
+  }
+
+  .email-button:active {
+    background-color: rgb(114, 141, 177);
+  }
+
+  .email-p, .email-msg {
+    font-size: 10px;
+  }
+
+  .email-input {
+    width: 242px;
+  }
+
+  .email-container {
+    margin-left: 5px;
+  }
+  
+
+
+  .twitter-box {
+   position: relative;
+   display: inline-block;
+   margin-top: 20px;
+   background-color: white;
+   margin-top: 70px;
+  }
+
+  .twitter-box .twitter-img {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  pointer-events: none; /* Prevents the image from capturing mouse events */
+  border-radius: 12px;
+  }
+
+
+  .twitter-box input {
+    padding-left: 36px; /* space for the image */
+    height: 32px;
+    font-size: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .tweet-button {
+    position: absolute;
+    right: 5px;
+    top: -45%;
+    transform: translateY(100%);
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    height: 20px;
+    width: 50px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  .tweet-button:hover {
+    box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .tweet-button:active {
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .name-box {
+    display: block;
+    margin-top: 100px;
+  }
+
+  .email-box {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .survey-msg {
+    width: 230px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    vertical-align: middle;
+  }
+
+  .survey-yes, .survey-no {
+  font-size: 13px;
+  margin-top: 40px;
+  vertical-align: middle;
+  cursor:all-scroll;
+  transition: background-color 0.15s;
+  }
+
+  .survey-yes:hover {
+    background-color: green;
+  }
+
+  .survey-no:hover {
+    background-color: red;
+  }
+
+  .google-photo {
+    margin-top: 40px;
+    margin-left: 165px;
+    display: block;
+  }
+
+  .first-name, .last-name {
+    width: 122px;
+    height: 25px;
+    display: relative;
+  }
+
+  .email-signup {
+    display: block;
+    margin-top: 8px;
+    width: 254px;
+    height: 25px;
+  }
+
+  .sign-up {
+    background-color: rgb(24, 101, 208);
+    color: white;
+    display: inline-block;
+    margin-top: 8px;
+    width: 258px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    padding-top: 5px
+  }
+
+  .first-name, .last-name, .email-signup, .sign-up {
+    border-radius: 5px;
+    border-width: 0.5px;
+  }
+
+  .signup-div {
+    margin-left: 250px;
+  }
+
+  .uber-msg {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 300px;
+  }
+
+  .uber-pickup, .uber-dropoff, .uber-msg {
+    display: block;
+  }
+
+  .uber-pickup, .uber-dropoff {
+    background-color: rgb(243, 240, 240);
+    color: rgb(36, 19, 144);
+    margin-bottom: 5px;
+    width: 230px;
+    border: none;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .uber-request {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    height: 25px;
+    border: none;
+    width: 100px;
+    font-size: 10.5px;
+    font-weight: lighter;
+    display: relative;;
+  }
+
+  .uber-schedule {
+    background-color: rgb(243, 240, 240);
+    color: black;
+    margin-top: 5px;
+    border: none;
+    height: 25px;
+    margin-left: 7px;
+    font-size: 10px;
+    display: relative;
+  }
+  
+  .uber-practice {
+    margin-left: 250px;
+  }
+
+  .red-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 250px;
+  }
+
+  .green-circle{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 50px;
+  }
+
+  .shapes {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .yes-no-survey {
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    width: 300px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    transition: background-color 0.15s;
+  }
+
+  .yes, .no:hover {
+    cursor: grab;
+  }
+
+  .yes:active {
+    background-color: green;
+    cursor: grabbing;
+  }
+
+  .no:active {
+    background-color: red;
+    cursor: grabbing;
+  }
+
+  .text-box {
+    width: 350px;
+    height: 120px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 3px;
+    font-size: 14px;
+    resize: none; /* Prevents resizing */
+    border: none;
+  }
+
+  .text-box-content {
+    background-color: rgb(37, 35, 35);
+    color: white;
+    width: 300px;
+    height: 75px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+
+  }
+
