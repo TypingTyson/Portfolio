@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D.S. Thomas | Portfolio</title>
+  <link rel="stylesheet" href="intro-to-html/styles/portfolio.css">
+</head>
+<body>
 
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">D. S. Thomas</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cta-button" onclick="scrollToContact()">Hire Me</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span class="highlight">D. S. Thomas</span></h2>
+      <p>I build high-performance web applications that drive results.</p>
+      <button class="primary-button" onclick="scrollToContact()">Let's Work Together</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a software developer with a passion for creating clean, efficient, and scalable digital solutions.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <a class="page-link" href="http://localhost:3000/">DreamFlix</a>
+        <p>DreamFlix is a Netflix-inspired video streaming platform built with React on the frontend and Node.js/Express on the backend. It features dynamic movie browsing, user authentication, and personalized content filtering.
+
+Tech Highlights:
+
+React.js: Built with component-based architecture for responsive UI, routing with React Router, and state management using Context API or Redux.
+
+Node.js & Express: RESTful API for handling user auth (JWT), movie data CRUD, and secure backend logic.
+
+MongoDB (optional): Used as a NoSQL database to store user profiles, watchlists, and content metadata.
+
+JWT & bcrypt: Secure login with encrypted tokens and hashed passwords.
+
+Responsive Design: Mobile-friendly layout styled with CSS Modules or Tailwind.
+
+<ul>Key Features:</ul>
+
+<li>User registration and login</li>
+
+<li>Browse, search, and filter movies/shows</li>
+
+<li>Personalized watchlists</li>
+
+Admin panel for content management (if applicable)</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Custom dashboard for Y. Built with Vue and Firebase.</p>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial">
+      <p>"Outstanding work! Delivered fast and exceeded expectations."</p>
+      <strong>– Happy Client</strong>
+    </div>
+    <!-- Add more testimonials -->
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 D. S. Thomas. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function scrollToContact() {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+  <script src="portfolio.js"></script>
+</body>
+</html>
